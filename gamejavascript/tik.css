@@ -1,0 +1,40 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color:floralwhite ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: silver;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
